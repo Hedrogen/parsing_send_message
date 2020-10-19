@@ -1,0 +1,14 @@
+beautifulsoup4==4.9.3
+bs4==0.0.1
+certifi==2020.6.20
+chardet==3.0.4
+fake-useragent==0.1.11
+idna==2.10
+lxml==4.5.2
+requests==2.24.0
+selenium==3.141.0
+six==1.15.0
+socks==0
+soupsieve==2.0.1
+stem==1.8.0
+user-agent==0.1.9
