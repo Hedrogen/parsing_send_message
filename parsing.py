@@ -64,14 +64,10 @@ def parse(link, write=False):
 
 def create_list(mismatch_list=[], original_json=[]):
 
-    """ Получает список и преобразует в словарь """
-
-    send_list = []
+    """ Возвращает список по ключам, которые есть в mismatch_list """
 
     if mismatch_list and original_json:
-        for post_id in mismatch_list:
-            send_list.append(original_json.get(post_id))
-        return send_list
+        return [original_json.get(i) for i in mismatch_list]
     if original_json:
         return [original_json.get(i) for i in original_json]
 
